@@ -6,10 +6,17 @@ import { USERS } from './user.mock';
 export class UserService {
     private users = USERS;
 
-    public async getUsers(){
+    public getUsers(){
         var json = JSON.stringify(this.users);
         return json;
     }
+
+    public getUser(id: number){
+        const user = this.users.find((user) => user.id == id);
+        return user;
+    }
+
+    
 }
 
 

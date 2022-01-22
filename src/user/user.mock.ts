@@ -1,26 +1,32 @@
 export const USERS = [
     {
-        id: '1',
+        id: 1,
         name: 'Jack',
         age: '19',
         gender: 'man',
     },
     {
-        id: '2',
+        id: 2,
         name: 'Johnny',
         age: '20',
         gender: 'man',
     },
     {
-        id: '3',
+        id: 3,
         name: 'Jim',
         age: '22',
         gender: 'man',
     },
     {
-        id: '4',
+        id: 4,
         name: 'Jameson',
         age: '30',
+        gender: 'man',
+    },
+    {
+        id: 5,
+        name: 'Jim',
+        age: '50',
         gender: 'man',
     },
 ]
